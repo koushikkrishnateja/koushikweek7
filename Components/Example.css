@@ -1,0 +1,17 @@
+.card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: lightcoral;
+    box-shadow: 0 4px 8px rgba(255, 5, 5, 0.1);
+    transition: box-shadow 0.1s ease-in-out, transform 0.3s ease-in-out;
+    max-height: 250px;
+    text-align: center;
+}
+
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+  }
